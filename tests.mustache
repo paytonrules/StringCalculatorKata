@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <title>Test'em</title>
+  <script src="/jspm_packages/system.js"></script>
+  <script src="/config.js"></script>
+  <script>
+    var testFiles = [
+      {{#serve_files}}
+      "{{{src}}}",
+      {{/serve_files}}
+    ];
+    System.import('specs/tests');
+  </script>
+</head>
+<body>
+  <div id="jasmine_content"></div>
+  <div id="fixture" style="position: absolute; x: -1000;"></div>
+</body>
+</html>

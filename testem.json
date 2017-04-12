@@ -1,0 +1,14 @@
+{
+  "src_files": [
+    "specs/**/*.js"
+  ],
+  "watch_files": [
+    "specs/**/*.js",
+    "app/**/*.js"
+  ],
+  "framework": "jasmine2",
+  "test_page": "tests.mustache",
+  "launch_in_ci": [
+    "PhantomJS"
+  ]
+}
