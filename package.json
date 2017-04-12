@@ -18,7 +18,7 @@
   "jspm": {
     "dependencies": {
       "css": "github:systemjs/plugin-css@^0.1.21",
-      "jasmine": "github:jasmine/jasmine@^2.4.1"
+      "jasmine": "github:jasmine/jasmine@^2.5.2"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
@@ -26,10 +26,10 @@
       "core-js": "npm:core-js@^1.1.4"
     },
     "overrides": {
-      "github:jasmine/jasmine@2.4.1": {
-        "main": "lib/jasmine-2.4.1/jasmine",
+      "github:jasmine/jasmine@2.5.2": {
+        "main": "lib/jasmine-2.5.2/jasmine",
         "directories": {
-          "lib": "lib/jasmine-2.4.1"
+          "lib": "lib/jasmine-2.5.2"
         },
         "format": "global"
       }
